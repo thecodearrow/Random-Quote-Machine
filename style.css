@@ -1,0 +1,103 @@
+html{
+
+	height:100vh;
+}
+
+body{
+   background-image: url("http://images.designtrends.com/wp-content/uploads/2015/11/06084012/Yellow-and-Brown-Wood-Background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	 background-position: 30% 20%;
+
+	}
+
+	#center_piece {
+  position: absolute;
+    top:0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin:auto;
+    background: #d8ae14;
+	background-image: url("images/whiteboard");
+	background-size:contain;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	width:72vh;
+  	height:52.5vh;
+  
+}
+
+#quote{
+
+ 	position: relative;
+	top: 50%;
+	transform: translateY(-50%); 
+	padding: 5vh 5vh 5vh 5vh;
+    font-size: 2.75vh;
+    font-weight: bolder;
+    font-style: bold;
+
+
+}
+#author{
+
+ 	position: absolute;
+	margin:auto;
+	top:75%;
+	left:60%;
+	font-size: 2.3vh;
+    padding-right:5vh;
+    font-style: italic;
+
+
+}
+
+#newButton{
+
+position: absolute;
+	margin:auto;
+	top:75%;
+	left:10%;
+	padding: 0.1vh,0.2vh,0.1vh,0.2vh;
+	white-space: normal;
+	word-wrap: break-word;
+
+}
+
+#tweetButton{
+
+position: absolute;
+	margin:auto;
+	top:75%;
+	left:30%;
+	padding: 0.1vh,0.2vh,0.1vh,0.2vh;
+    white-space: normal;
+
+}
+
+#created{
+
+	width: 100%;
+    bottom: 0;
+    position: fixed;
+    text-align: right;
+    color:white;
+    font-weight: bolder;
+    font-size:2vh;
+    padding-right: 2vh;
+
+}
+
+#new-quote-text{
+
+font-size: 1.5vh;
+font-weight: bold;
+
+}
+#tweet-text{
+font-size: 1.5vh;
+font-weight: bold;
+
+}
